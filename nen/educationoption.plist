@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>美容美妆</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>游泳</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>棋艺</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>书法</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>美术</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>吉他</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>古筝</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>小提琴</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>钢琴</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>全部</string>
+		<key>icon</key>
+		<string>boutiqueIcon</string>
+	</dict>
+</array>
+</plist>

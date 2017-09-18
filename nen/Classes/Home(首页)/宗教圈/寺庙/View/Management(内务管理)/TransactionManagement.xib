@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="manageCell" id="e9F-K0-S40" customClass="TransactionManagement">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="事务管理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chG-F3-xzA">
+                    <rect key="frame" x="20" y="15" width="70" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1u-u0-eqL">
+                    <rect key="frame" x="325" y="15" width="65" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="查看更多&gt;&gt;"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9P-gP-5uK" customClass="generalButton">
+                    <rect key="frame" x="20" y="57" width="108.5" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="0gu-xJ-Boq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="报名管理" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6u-Ie-GOi" customClass="generalButton">
+                    <rect key="frame" x="148.5" y="57" width="108" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="信徒管理" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaG-82-kFF" customClass="generalButton">
+                    <rect key="frame" x="276.5" y="57" width="108.5" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="日程管理" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.64981174939999997" green="0.89941959969999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="xaG-82-kFF" firstAttribute="leading" secondItem="w6u-Ie-GOi" secondAttribute="trailing" constant="20" id="2on-6I-s8L"/>
+                <constraint firstItem="w6u-Ie-GOi" firstAttribute="width" secondItem="Z9P-gP-5uK" secondAttribute="width" id="3HG-71-yCs"/>
+                <constraint firstItem="w6u-Ie-GOi" firstAttribute="height" secondItem="Z9P-gP-5uK" secondAttribute="height" id="5qk-tI-jAn"/>
+                <constraint firstItem="xaG-82-kFF" firstAttribute="width" secondItem="Z9P-gP-5uK" secondAttribute="width" id="AJ8-ms-qOa"/>
+                <constraint firstItem="xaG-82-kFF" firstAttribute="height" secondItem="Z9P-gP-5uK" secondAttribute="height" id="AOh-Sw-PNX"/>
+                <constraint firstItem="Z9P-gP-5uK" firstAttribute="leading" secondItem="e9F-K0-S40" secondAttribute="leading" constant="20" id="Cit-qr-Vrh"/>
+                <constraint firstAttribute="trailing" secondItem="xaG-82-kFF" secondAttribute="trailing" constant="20" id="Clr-40-wpW"/>
+                <constraint firstItem="g1u-u0-eqL" firstAttribute="top" secondItem="e9F-K0-S40" secondAttribute="top" constant="15" id="Jy2-UY-4Zg"/>
+                <constraint firstItem="Z9P-gP-5uK" firstAttribute="top" secondItem="chG-F3-xzA" secondAttribute="bottom" constant="15" id="OCR-vP-mj5"/>
+                <constraint firstItem="chG-F3-xzA" firstAttribute="leading" secondItem="e9F-K0-S40" secondAttribute="leading" constant="20" id="aGe-jb-Ei1"/>
+                <constraint firstItem="chG-F3-xzA" firstAttribute="top" secondItem="e9F-K0-S40" secondAttribute="top" constant="15" id="bWm-Xx-oE5"/>
+                <constraint firstAttribute="trailing" secondItem="g1u-u0-eqL" secondAttribute="trailing" constant="15" id="c0f-js-wsl"/>
+                <constraint firstItem="xaG-82-kFF" firstAttribute="centerY" secondItem="Z9P-gP-5uK" secondAttribute="centerY" id="fbL-Oe-8fv"/>
+                <constraint firstItem="w6u-Ie-GOi" firstAttribute="leading" secondItem="Z9P-gP-5uK" secondAttribute="trailing" constant="20" id="hky-8Y-ria"/>
+                <constraint firstItem="w6u-Ie-GOi" firstAttribute="centerY" secondItem="Z9P-gP-5uK" secondAttribute="centerY" id="m6Z-7T-d50"/>
+                <constraint firstItem="g1u-u0-eqL" firstAttribute="centerY" secondItem="chG-F3-xzA" secondAttribute="centerY" id="sB5-GE-bYu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-199" y="42"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabBar_publish_click_icon" width="49" height="49"/>
+    </resources>
+</document>

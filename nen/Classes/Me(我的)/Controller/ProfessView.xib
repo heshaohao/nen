@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="FqJ-Ej-LdC" customClass="ProfessView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaO-Zb-Qnl">
+                    <rect key="frame" x="0.0" y="0.0" width="187" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="149-IG-gjP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="开店" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shopBtn:" destination="FqJ-Ej-LdC" eventType="touchUpInside" id="OcV-4f-ybb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxh-Aa-XUT">
+                    <rect key="frame" x="0.0" y="60" width="187" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="cHu-mg-Oer"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="当老师" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="teacherBtn:" destination="FqJ-Ej-LdC" eventType="touchUpInside" id="OaP-1q-MNf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7V-id-E0W">
+                    <rect key="frame" x="0.0" y="120" width="187" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="KzI-jv-C9S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="驾校" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="drivingBtn:" destination="FqJ-Ej-LdC" eventType="touchUpInside" id="iyS-sQ-lQT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfR-99-o9i">
+                    <rect key="frame" x="188" y="60" width="187" height="60"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="当师傅" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="masterBtn:" destination="FqJ-Ej-LdC" eventType="touchUpInside" id="MNc-xA-5dm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xy6-ad-vpf">
+                    <rect key="frame" x="188" y="0.0" width="187" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="gQR-9K-bcj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="当顾问" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="consultantBtn:" destination="FqJ-Ej-LdC" eventType="touchUpInside" id="6u5-uF-voV"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Zk-PT-sZs" userLabel="1">
+                    <rect key="frame" x="187" y="6" width="1" height="46"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="VTL-6r-Ilg"/>
+                        <constraint firstAttribute="width" constant="1" id="elw-zE-J1w"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oep-hU-p0Z" userLabel="2">
+                    <rect key="frame" x="187" y="67" width="1" height="46"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="Xje-7R-xjy"/>
+                        <constraint firstAttribute="width" constant="1" id="eof-4m-I95"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTf-CO-wdk" userLabel="3">
+                    <rect key="frame" x="187" y="127" width="1" height="46"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="P6e-rA-b47"/>
+                        <constraint firstAttribute="width" constant="1" id="dej-W3-Wgm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3XZ-I3-A1j">
+                    <rect key="frame" x="0.0" y="120" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="khx-MJ-2bV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFx-Jz-fPa">
+                    <rect key="frame" x="0.0" y="60" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="1ut-ga-xQr"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXd-PT-lXo">
+                    <rect key="frame" x="188" y="120" width="187" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="j8a-a4-b1j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="其它" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nfR-99-o9i" firstAttribute="centerY" secondItem="Qxh-Aa-XUT" secondAttribute="centerY" id="03z-M2-HmL"/>
+                <constraint firstItem="nfR-99-o9i" firstAttribute="top" secondItem="xy6-ad-vpf" secondAttribute="bottom" id="1sz-ps-nLp"/>
+                <constraint firstItem="wXd-PT-lXo" firstAttribute="top" secondItem="nfR-99-o9i" secondAttribute="bottom" id="5kH-WG-eD0"/>
+                <constraint firstItem="xy6-ad-vpf" firstAttribute="top" secondItem="FqJ-Ej-LdC" secondAttribute="top" id="5uI-w7-WVs"/>
+                <constraint firstItem="9Zk-PT-sZs" firstAttribute="centerX" secondItem="FqJ-Ej-LdC" secondAttribute="centerX" id="6Nf-dX-HD9"/>
+                <constraint firstItem="I7V-id-E0W" firstAttribute="top" secondItem="Qxh-Aa-XUT" secondAttribute="bottom" id="6hK-fJ-xJS"/>
+                <constraint firstAttribute="trailing" secondItem="wXd-PT-lXo" secondAttribute="trailing" id="7Ne-ZX-Ma7"/>
+                <constraint firstAttribute="trailing" secondItem="nFx-Jz-fPa" secondAttribute="trailing" id="8ZD-d7-5Lo"/>
+                <constraint firstItem="OTf-CO-wdk" firstAttribute="leading" secondItem="I7V-id-E0W" secondAttribute="trailing" id="9o2-ad-GND"/>
+                <constraint firstItem="OTf-CO-wdk" firstAttribute="top" secondItem="3XZ-I3-A1j" secondAttribute="bottom" constant="6" id="BtH-7V-tjI"/>
+                <constraint firstItem="oep-hU-p0Z" firstAttribute="centerX" secondItem="FqJ-Ej-LdC" secondAttribute="centerX" id="GzL-eu-GC8"/>
+                <constraint firstItem="3XZ-I3-A1j" firstAttribute="top" secondItem="nfR-99-o9i" secondAttribute="bottom" id="KbN-UE-y6x"/>
+                <constraint firstItem="9Zk-PT-sZs" firstAttribute="top" secondItem="FqJ-Ej-LdC" secondAttribute="top" constant="6" id="LHM-16-MxW"/>
+                <constraint firstItem="9Zk-PT-sZs" firstAttribute="leading" secondItem="IaO-Zb-Qnl" secondAttribute="trailing" id="NGB-LD-RPi"/>
+                <constraint firstItem="wXd-PT-lXo" firstAttribute="leading" secondItem="OTf-CO-wdk" secondAttribute="trailing" id="OeQ-Ao-Frc"/>
+                <constraint firstItem="nfR-99-o9i" firstAttribute="height" secondItem="Qxh-Aa-XUT" secondAttribute="height" id="Oot-fO-iff"/>
+                <constraint firstItem="IaO-Zb-Qnl" firstAttribute="top" secondItem="FqJ-Ej-LdC" secondAttribute="top" id="Pho-Ra-TmP"/>
+                <constraint firstItem="IaO-Zb-Qnl" firstAttribute="leading" secondItem="FqJ-Ej-LdC" secondAttribute="leading" id="Qi9-Hy-bil"/>
+                <constraint firstItem="nFx-Jz-fPa" firstAttribute="top" secondItem="xy6-ad-vpf" secondAttribute="bottom" id="XtA-WF-7wP"/>
+                <constraint firstItem="nfR-99-o9i" firstAttribute="width" secondItem="Qxh-Aa-XUT" secondAttribute="width" id="d60-bt-m7e"/>
+                <constraint firstItem="xy6-ad-vpf" firstAttribute="leading" secondItem="9Zk-PT-sZs" secondAttribute="trailing" id="d9v-4j-Qj1"/>
+                <constraint firstItem="I7V-id-E0W" firstAttribute="leading" secondItem="FqJ-Ej-LdC" secondAttribute="leading" id="iXt-dL-oar"/>
+                <constraint firstItem="nfR-99-o9i" firstAttribute="leading" secondItem="oep-hU-p0Z" secondAttribute="trailing" id="jCh-2k-Z3P"/>
+                <constraint firstItem="Qxh-Aa-XUT" firstAttribute="top" secondItem="IaO-Zb-Qnl" secondAttribute="bottom" id="kzE-bz-AwD"/>
+                <constraint firstItem="oep-hU-p0Z" firstAttribute="top" secondItem="nFx-Jz-fPa" secondAttribute="bottom" constant="6" id="mei-wt-i1p"/>
+                <constraint firstAttribute="trailing" secondItem="nfR-99-o9i" secondAttribute="trailing" id="nHf-JU-OpX"/>
+                <constraint firstItem="oep-hU-p0Z" firstAttribute="leading" secondItem="Qxh-Aa-XUT" secondAttribute="trailing" id="oKw-Hs-npk"/>
+                <constraint firstAttribute="trailing" secondItem="3XZ-I3-A1j" secondAttribute="trailing" id="qHN-7t-PQx"/>
+                <constraint firstItem="nFx-Jz-fPa" firstAttribute="leading" secondItem="FqJ-Ej-LdC" secondAttribute="leading" id="qSl-pm-66g"/>
+                <constraint firstItem="Qxh-Aa-XUT" firstAttribute="leading" secondItem="FqJ-Ej-LdC" secondAttribute="leading" id="uqz-gY-fSe"/>
+                <constraint firstItem="OTf-CO-wdk" firstAttribute="centerX" secondItem="FqJ-Ej-LdC" secondAttribute="centerX" id="wGK-fQ-MZC"/>
+                <constraint firstAttribute="trailing" secondItem="xy6-ad-vpf" secondAttribute="trailing" id="x6k-3f-SKi"/>
+                <constraint firstItem="3XZ-I3-A1j" firstAttribute="leading" secondItem="FqJ-Ej-LdC" secondAttribute="leading" id="x9J-0t-vXe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35.5" y="-52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabBar_publish_click_icon" width="49" height="49"/>
+        <image name="tabBar_publish_icon" width="49" height="49"/>
+    </resources>
+</document>

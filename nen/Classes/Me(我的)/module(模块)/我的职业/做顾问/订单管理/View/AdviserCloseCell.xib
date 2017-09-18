@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="149" id="Dyk-T5-Qa6" customClass="AdviserCloseCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dyk-T5-Qa6" id="yjC-JP-KYO">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="互联网+移动医用时长股份的过户" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-j6-T48">
+                        <rect key="frame" x="20" y="10" width="194" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="互联网+移动医用时长股份的过户都是" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyS-gR-YoL">
+                        <rect key="frame" x="83" y="46" width="221" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="C08-wj-t3s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="vG1-K0-lSm">
+                        <rect key="frame" x="18" y="46" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="JuH-yP-STX"/>
+                            <constraint firstAttribute="width" constant="50" id="tSs-uD-wE1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥299" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msx-9d-iWw">
+                        <rect key="frame" x="318" y="72" width="37" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEH-5X-lut">
+                        <rect key="frame" x="280" y="100" width="60" height="30"/>
+                        <color key="backgroundColor" red="0.19021563329999999" green="0.83165581639999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6hn-lO-6WO"/>
+                            <constraint firstAttribute="width" constant="60" id="eIi-Y5-Feg"/>
+                        </constraints>
+                        <state key="normal" title="已关闭">
+                            <color key="titleColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Msx-9d-iWw" firstAttribute="top" secondItem="TyS-gR-YoL" secondAttribute="bottom" constant="10" id="ACt-D2-EBt"/>
+                    <constraint firstItem="vG1-K0-lSm" firstAttribute="top" secondItem="WAP-j6-T48" secondAttribute="bottom" constant="20" id="Q2A-MP-02E"/>
+                    <constraint firstAttribute="trailing" secondItem="zEH-5X-lut" secondAttribute="trailing" constant="35" id="V08-Ud-izm"/>
+                    <constraint firstAttribute="trailing" secondItem="Msx-9d-iWw" secondAttribute="trailing" constant="20" id="WnJ-U9-Cdt"/>
+                    <constraint firstItem="TyS-gR-YoL" firstAttribute="top" secondItem="vG1-K0-lSm" secondAttribute="top" id="Wvp-Dp-a32"/>
+                    <constraint firstItem="vG1-K0-lSm" firstAttribute="leading" secondItem="yjC-JP-KYO" secondAttribute="leadingMargin" constant="10" id="avt-he-C1a"/>
+                    <constraint firstItem="zEH-5X-lut" firstAttribute="top" secondItem="Msx-9d-iWw" secondAttribute="bottom" constant="10" id="fhO-Bm-MgK"/>
+                    <constraint firstItem="WAP-j6-T48" firstAttribute="leading" secondItem="yjC-JP-KYO" secondAttribute="leading" constant="20" id="reJ-lk-BUH"/>
+                    <constraint firstItem="WAP-j6-T48" firstAttribute="top" secondItem="yjC-JP-KYO" secondAttribute="top" constant="10" id="sJu-3K-HyB"/>
+                    <constraint firstItem="TyS-gR-YoL" firstAttribute="leading" secondItem="vG1-K0-lSm" secondAttribute="trailing" constant="15" id="vtN-RH-N67"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="24.5" y="-53.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="8" width="744" height="1324"/>
+    </resources>
+</document>

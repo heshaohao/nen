@@ -1,0 +1,119 @@
+//
+//  PrefixHeader.pch
+//  nen
+//
+//  Created by apple on 17/3/9.
+//  Copyright © 2017年 nen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "UIView+SHextension.h"
+#import "NSString+Hash.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import "ShufflingFigureModel.h"
+#import "NSString+Encryption.h"
+#import "MBProgressHUD.h"
+#import "JKAlert.h"
+#import "NSObject+JKAlert.h"
+#import "MJRefresh.h"
+#import "SHRefreshHeader.h"
+#import "SHRefreshFooter.h"
+#import "UIColor+Wonderful.h"
+#import "UIButton+CenterTitleAndImage.h"
+#import "UIColor+ColorChange.h"
+#import "SearGoodsViewController.h"
+#import "BackNavigationBarView.h"
+#import "ThereIsNoDataBackgroundView.h"
+#import "DetermineTheNetworkTools.h"
+#import "CropImageViewController.h"
+#import "SDCycleScrollView.h"
+#import "HDAlertView.h"
+#import "LoginAndRegisterViewController.h"
+#import "MMCheckTool.h"
+
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define SHNaigationBarHeight 64
+#define SHTabBarHeight 49
+
+#define  TAG_CartEmptyView 100
+
+// 导航栏的设置
+#define KNavBarBackIcon [UIImage imageNamed:@"navbackicon"]
+#define KNavBarBarTintColor   [UIColor colorWithHexString:@"#FF5001"]
+#define KNavBarTitleColor [UIColor whiteColor]
+#define KNavBarTittleFont 16
+#define KNavBarBackBtnW  40
+#define KNavBarBackBtnH  40
+#define KNavBarSpacing  -12
+// 个人中心 和钱包导航栏
+#define KNavBarBackIconColor [UIImage imageNamed:@"navBackIcon blackColor"]
+#define KNavBarTitlesColor [UIColor blackColor]
+#define KNavBarBarTintsColor [UIColor colorWithHexString:@"#f0f0f0"]
+
+// 没有数据背景图片
+#define KNoDataBackgroundImage   [UIImage imageNamed:@"noDatabackgroundImage"]
+#define KShoppingCarNoDataBackgroundImage  [UIImage imageNamed:@"shoppingCarbackgroundImage"]
+
+//16进制RGB的颜色转换
+#define LZColorFromHex(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//R G B 颜色
+#define LZColorFromRGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+//红色
+#define BASECOLOR_RED [UIColor \
+colorWithRed:((float)((0xED5565 & 0xFF0000) >> 16))/255.0 \
+green:((float)((0xED5565 & 0xFF00) >> 8))/255.0 \
+blue:((float)(0xED5565 & 0xFF))/255.0 alpha:1.0]
+
+
+static NSString *sh_BackButtonString = @"back_button";
+static NSString *sh_Bottom_UnSelectButtonString = @"cart_unSelect_btn";
+static NSString *sh_Bottom_SelectButtonString = @"cart_selected_btn";
+static NSString *sh_CartEmptyString = @"cart_default_bg";
+static NSInteger sh_CartRowHeight = 100;
+
+#endif
+
+#define DEMO_CALL 1 // 1：启用音视频通话；0：禁用音视频通话
+
+// TODO::是否启用web缓存用户信息。注释这个宏，则用本地sqlite缓存
+//#define WEBCACHE_USER
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+
+#import "EMSDKFull.h"
+#import "EaseUI.h"
+#import "ChatUIDefine.h"
+#import "UserCacheManager.h"
+
+#import "AVOSCloud/AVOSCloud.h"
+#import "UserWebManager.h"
+#endif
+
+
+
+#ifdef DEBUG
+#define ELog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define ELog(format, ...)
+#endif
+
+
+#endif /* PrefixHeader_pch */

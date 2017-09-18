@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="manageCell" id="sfv-3q-ME0" customClass="PublishMessagesView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="163"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信息发布" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buc-x9-0L1">
+                    <rect key="frame" x="20" y="15" width="70" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-pe-P0L">
+                    <rect key="frame" x="295" y="15" width="65" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="查看更多&gt;&gt;"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAT-fK-cr3" customClass="generalButton">
+                    <rect key="frame" x="20" y="57" width="69" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="mih-XB-bb7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="主页管理" image="tabBar_publish_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRh-x2-nbA" customClass="generalButton">
+                    <rect key="frame" x="109" y="57" width="68.5" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="佛教文化" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pp-TI-oGB" customClass="generalButton">
+                    <rect key="frame" x="197.5" y="57" width="68.5" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="教学管理" image="tabBar_publish_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5A-G5-9db" customClass="generalButton">
+                    <rect key="frame" x="286" y="57" width="69" height="65"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="活动管理" image="tabBar_new_click_icon">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.57942746089999997" green="0.61809950560000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cej-pe-P0L" secondAttribute="trailing" constant="15" id="1JH-aO-eOk"/>
+                <constraint firstItem="cej-pe-P0L" firstAttribute="centerY" secondItem="buc-x9-0L1" secondAttribute="centerY" id="Ata-9L-yKn"/>
+                <constraint firstItem="buc-x9-0L1" firstAttribute="top" secondItem="sfv-3q-ME0" secondAttribute="top" constant="15" id="BHK-29-gqG"/>
+                <constraint firstItem="oRh-x2-nbA" firstAttribute="leading" secondItem="jAT-fK-cr3" secondAttribute="trailing" constant="20" id="BdG-WY-EgQ"/>
+                <constraint firstItem="i5A-G5-9db" firstAttribute="leading" secondItem="7Pp-TI-oGB" secondAttribute="trailing" constant="20" id="Dtj-xo-FF5"/>
+                <constraint firstItem="7Pp-TI-oGB" firstAttribute="width" secondItem="oRh-x2-nbA" secondAttribute="width" id="EKV-Ug-iaM"/>
+                <constraint firstItem="7Pp-TI-oGB" firstAttribute="centerY" secondItem="jAT-fK-cr3" secondAttribute="centerY" id="JMu-zl-hJ5"/>
+                <constraint firstItem="i5A-G5-9db" firstAttribute="height" secondItem="7Pp-TI-oGB" secondAttribute="height" id="VDA-db-qaP"/>
+                <constraint firstItem="jAT-fK-cr3" firstAttribute="top" secondItem="buc-x9-0L1" secondAttribute="bottom" constant="15" id="VN0-gs-rWg"/>
+                <constraint firstAttribute="trailing" secondItem="i5A-G5-9db" secondAttribute="trailing" constant="20" id="XcD-xL-FeR"/>
+                <constraint firstItem="jAT-fK-cr3" firstAttribute="leading" secondItem="sfv-3q-ME0" secondAttribute="leading" constant="20" id="cCl-U1-qvz"/>
+                <constraint firstItem="oRh-x2-nbA" firstAttribute="width" secondItem="jAT-fK-cr3" secondAttribute="width" id="dnL-jG-iEK"/>
+                <constraint firstItem="7Pp-TI-oGB" firstAttribute="leading" secondItem="oRh-x2-nbA" secondAttribute="trailing" constant="20" id="nio-Cq-0sv"/>
+                <constraint firstItem="oRh-x2-nbA" firstAttribute="centerY" secondItem="jAT-fK-cr3" secondAttribute="centerY" id="o3v-mc-NHH"/>
+                <constraint firstItem="i5A-G5-9db" firstAttribute="width" secondItem="7Pp-TI-oGB" secondAttribute="width" id="osR-7f-5Ue"/>
+                <constraint firstItem="7Pp-TI-oGB" firstAttribute="height" secondItem="oRh-x2-nbA" secondAttribute="height" id="tsb-eu-q5s"/>
+                <constraint firstItem="cej-pe-P0L" firstAttribute="top" secondItem="sfv-3q-ME0" secondAttribute="top" constant="15" id="wlE-7h-sde"/>
+                <constraint firstItem="oRh-x2-nbA" firstAttribute="height" secondItem="jAT-fK-cr3" secondAttribute="height" id="xBs-0n-SqD"/>
+                <constraint firstItem="buc-x9-0L1" firstAttribute="leading" secondItem="sfv-3q-ME0" secondAttribute="leading" constant="20" id="yCc-af-8kP"/>
+                <constraint firstItem="i5A-G5-9db" firstAttribute="centerY" secondItem="jAT-fK-cr3" secondAttribute="centerY" id="ywv-By-iNK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-213" y="-656"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabBar_new_click_icon" width="37" height="37"/>
+        <image name="tabBar_publish_click_icon" width="49" height="49"/>
+        <image name="tabBar_publish_icon" width="49" height="49"/>
+    </resources>
+</document>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="woZ-vZ-RbY" customClass="MyCareerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的事业" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXp-Rg-17f">
+                    <rect key="frame" x="10" y="15" width="62" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yad-vZ-G99">
+                    <rect key="frame" x="0.0" y="48" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="5SO-EF-JBM"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZo-RX-Gbr" customClass="MyTheCareerism">
+                    <rect key="frame" x="10" y="59" width="73" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="73" id="4XM-Ah-uhd"/>
+                        <constraint firstAttribute="width" constant="73" id="FCb-lm-fSQ"/>
+                        <constraint firstAttribute="height" constant="70" id="eC4-aX-yZV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="营销公司" image="marketing">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="marketingBtn:" destination="woZ-vZ-RbY" eventType="touchUpInside" id="4St-LW-y2R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aw6-t3-wyb" customClass="MyTheCareerism">
+                    <rect key="frame" x="104" y="59" width="73" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="PIh-ju-mrt"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="gxG-ho-pou"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="服务公司" image="servicesCompany">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="serviceBtn:" destination="woZ-vZ-RbY" eventType="touchUpInside" id="xEf-0y-UVn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51O-fD-UOF" customClass="MyTheCareerism">
+                    <rect key="frame" x="198" y="59" width="73" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="LLx-Rg-VcL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="招商公司" image="chinaMerchants">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="merchantsBtn:" destination="woZ-vZ-RbY" eventType="touchUpInside" id="cc2-jb-QEc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaN-ZM-bsf" customClass="MyTheCareerism">
+                    <rect key="frame" x="292" y="59" width="73" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="ou1-2a-xby"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="更多" image="more">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="moreBtn:" destination="woZ-vZ-RbY" eventType="touchUpInside" id="XHZ-te-Jyr"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JdC-K8-njd">
+                    <rect key="frame" x="187" y="64" width="1" height="60"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFy-QW-gI0">
+                    <rect key="frame" x="281" y="64" width="1" height="60"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIl-a8-VqR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                    <connections>
+                        <action selector="MyTheCareerBtn:" destination="woZ-vZ-RbY" eventType="touchUpInside" id="ktT-wR-aKX"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CtD-6O-LPR">
+                    <rect key="frame" x="93" y="64" width="1" height="60"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ZH0-Cu-5TG"/>
+                        <constraint firstAttribute="width" constant="1" id="c59-7B-4QR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uXp-Rg-17f" firstAttribute="top" secondItem="woZ-vZ-RbY" secondAttribute="top" constant="15" id="0GE-m9-Omn"/>
+                <constraint firstAttribute="trailing" secondItem="Yad-vZ-G99" secondAttribute="trailing" id="0hb-5N-Xnd"/>
+                <constraint firstItem="51O-fD-UOF" firstAttribute="top" secondItem="Yad-vZ-G99" secondAttribute="bottom" constant="10" id="13o-6k-NPJ"/>
+                <constraint firstItem="GFy-QW-gI0" firstAttribute="top" secondItem="JdC-K8-njd" secondAttribute="top" id="1aa-WY-VnD"/>
+                <constraint firstItem="sZo-RX-Gbr" firstAttribute="top" secondItem="Yad-vZ-G99" secondAttribute="bottom" constant="10" id="4WK-iL-zgt"/>
+                <constraint firstItem="sZo-RX-Gbr" firstAttribute="leading" secondItem="woZ-vZ-RbY" secondAttribute="leading" constant="10" id="4sg-Nb-LX5"/>
+                <constraint firstItem="51O-fD-UOF" firstAttribute="width" secondItem="Aw6-t3-wyb" secondAttribute="width" id="6N8-Tb-Ieh"/>
+                <constraint firstItem="JdC-K8-njd" firstAttribute="leading" secondItem="Aw6-t3-wyb" secondAttribute="trailing" constant="10" id="7SC-bm-Q8T"/>
+                <constraint firstItem="CtD-6O-LPR" firstAttribute="leading" secondItem="sZo-RX-Gbr" secondAttribute="trailing" constant="10" id="A1l-fa-lMf"/>
+                <constraint firstItem="JdC-K8-njd" firstAttribute="top" secondItem="CtD-6O-LPR" secondAttribute="top" id="Ar7-eF-CUV"/>
+                <constraint firstItem="51O-fD-UOF" firstAttribute="height" secondItem="Aw6-t3-wyb" secondAttribute="height" id="Gdn-ZG-WMw"/>
+                <constraint firstItem="Yad-vZ-G99" firstAttribute="top" secondItem="uXp-Rg-17f" secondAttribute="bottom" constant="15" id="IIs-IL-g9n"/>
+                <constraint firstItem="Aw6-t3-wyb" firstAttribute="width" secondItem="sZo-RX-Gbr" secondAttribute="width" id="JSF-my-bcn"/>
+                <constraint firstItem="Yad-vZ-G99" firstAttribute="top" secondItem="eIl-a8-VqR" secondAttribute="bottom" id="Or7-rH-haR"/>
+                <constraint firstItem="Aw6-t3-wyb" firstAttribute="height" secondItem="sZo-RX-Gbr" secondAttribute="height" id="Q0b-0a-Jcc"/>
+                <constraint firstItem="GFy-QW-gI0" firstAttribute="height" secondItem="JdC-K8-njd" secondAttribute="height" id="Qv8-DF-YAQ"/>
+                <constraint firstItem="GFy-QW-gI0" firstAttribute="width" secondItem="JdC-K8-njd" secondAttribute="width" id="R99-lB-Uqy"/>
+                <constraint firstItem="VaN-ZM-bsf" firstAttribute="width" secondItem="51O-fD-UOF" secondAttribute="width" id="Ywc-bW-WOo"/>
+                <constraint firstItem="Aw6-t3-wyb" firstAttribute="top" secondItem="Yad-vZ-G99" secondAttribute="bottom" constant="10" id="aKH-BK-ncg"/>
+                <constraint firstItem="VaN-ZM-bsf" firstAttribute="top" secondItem="Yad-vZ-G99" secondAttribute="bottom" constant="10" id="cKB-8C-ISG"/>
+                <constraint firstItem="CtD-6O-LPR" firstAttribute="top" secondItem="woZ-vZ-RbY" secondAttribute="top" constant="64" id="cQq-bZ-UYU"/>
+                <constraint firstItem="uXp-Rg-17f" firstAttribute="leading" secondItem="woZ-vZ-RbY" secondAttribute="leading" constant="10" id="cjr-9e-0Jj"/>
+                <constraint firstItem="sZo-RX-Gbr" firstAttribute="leading" secondItem="woZ-vZ-RbY" secondAttribute="leading" constant="10" id="d9T-MW-xPZ"/>
+                <constraint firstAttribute="trailing" secondItem="VaN-ZM-bsf" secondAttribute="trailing" constant="10" id="fK0-6H-Cnb"/>
+                <constraint firstAttribute="trailing" secondItem="eIl-a8-VqR" secondAttribute="trailing" id="g5c-6R-E7G"/>
+                <constraint firstItem="Yad-vZ-G99" firstAttribute="leading" secondItem="woZ-vZ-RbY" secondAttribute="leading" id="kxn-ny-geC"/>
+                <constraint firstItem="VaN-ZM-bsf" firstAttribute="leading" secondItem="GFy-QW-gI0" secondAttribute="trailing" constant="10" id="mjg-hg-pNe"/>
+                <constraint firstItem="JdC-K8-njd" firstAttribute="width" secondItem="CtD-6O-LPR" secondAttribute="width" id="mqd-sa-T6P"/>
+                <constraint firstItem="VaN-ZM-bsf" firstAttribute="height" secondItem="51O-fD-UOF" secondAttribute="height" id="pZG-Qz-Cwh"/>
+                <constraint firstItem="51O-fD-UOF" firstAttribute="leading" secondItem="JdC-K8-njd" secondAttribute="trailing" constant="10" id="qDP-ZL-vQC"/>
+                <constraint firstItem="eIl-a8-VqR" firstAttribute="top" secondItem="woZ-vZ-RbY" secondAttribute="top" id="ryL-gl-PmV"/>
+                <constraint firstItem="eIl-a8-VqR" firstAttribute="leading" secondItem="woZ-vZ-RbY" secondAttribute="leading" id="t9P-ex-36f"/>
+                <constraint firstItem="JdC-K8-njd" firstAttribute="height" secondItem="CtD-6O-LPR" secondAttribute="height" id="to6-hr-0PY"/>
+                <constraint firstItem="Aw6-t3-wyb" firstAttribute="leading" secondItem="CtD-6O-LPR" secondAttribute="trailing" constant="10" id="z35-L7-IcT"/>
+                <constraint firstItem="GFy-QW-gI0" firstAttribute="leading" secondItem="51O-fD-UOF" secondAttribute="trailing" constant="10" id="zW0-0x-qWk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="754" y="-339"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chinaMerchants" width="32" height="32"/>
+        <image name="marketing" width="32" height="32"/>
+        <image name="more" width="32" height="32"/>
+        <image name="servicesCompany" width="32" height="32"/>
+    </resources>
+</document>

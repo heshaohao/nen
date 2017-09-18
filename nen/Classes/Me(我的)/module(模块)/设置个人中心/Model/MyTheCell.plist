@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>登录密码</string>
+				<key>dextTitle</key>
+				<string>建议定期修改密码以保护账号安全</string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>手机验证</string>
+				<key>dextTitle</key>
+				<string>若您的手机已丢或着停用, 请立即更改</string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>支付验证</string>
+				<key>dextTitle</key>
+				<string>建议您的设置高度密码</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>安全Tips</string>
+				<key>dextTitle</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

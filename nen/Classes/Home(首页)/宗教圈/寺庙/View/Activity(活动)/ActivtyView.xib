@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1qe-dH-W0h" customClass="ActivityView">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最新动态" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa3-ja-kEc">
+                    <rect key="frame" x="20" y="10" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本寺将于2017年6月19日举办佛教文化展览会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEv-fI-xHR">
+                    <rect key="frame" x="10" y="46" width="284" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="展会地点位于 : 江西南昌某某场馆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBP-2U-kC5">
+                    <rect key="frame" x="10" y="68" width="212" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="展会内容包括 : 佛教用品|佛教书籍|佛教讲坛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3d1-el-eiX">
+                    <rect key="frame" x="10" y="90" width="278" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="UnQ-25-l2P">
+                    <rect key="frame" x="0.0" y="117" width="393" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="9G9-gj-ZD0"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uy-XU-qnL">
+                    <rect key="frame" x="318" y="8" width="55" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="gsO-VI-qvM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" title="查看更多&gt;&gt;"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3d1-el-eiX" firstAttribute="top" secondItem="WBP-2U-kC5" secondAttribute="bottom" constant="5" id="5VL-RG-z7Q"/>
+                <constraint firstAttribute="trailing" secondItem="UnQ-25-l2P" secondAttribute="trailing" id="6Eg-MD-kLY"/>
+                <constraint firstItem="3d1-el-eiX" firstAttribute="leading" secondItem="1qe-dH-W0h" secondAttribute="leading" constant="10" id="Bv5-tr-HLk"/>
+                <constraint firstItem="UnQ-25-l2P" firstAttribute="leading" secondItem="1qe-dH-W0h" secondAttribute="leading" id="FOp-Z3-ckf"/>
+                <constraint firstItem="zEv-fI-xHR" firstAttribute="leading" secondItem="1qe-dH-W0h" secondAttribute="leading" constant="10" id="XdE-2K-2ci"/>
+                <constraint firstItem="xa3-ja-kEc" firstAttribute="top" secondItem="1qe-dH-W0h" secondAttribute="top" constant="10" id="Xx0-uc-pcw"/>
+                <constraint firstItem="2uy-XU-qnL" firstAttribute="centerY" secondItem="xa3-ja-kEc" secondAttribute="centerY" id="aOz-3x-09L"/>
+                <constraint firstItem="xa3-ja-kEc" firstAttribute="leading" secondItem="1qe-dH-W0h" secondAttribute="leading" constant="20" id="dE4-u5-xlQ"/>
+                <constraint firstItem="WBP-2U-kC5" firstAttribute="leading" secondItem="zEv-fI-xHR" secondAttribute="leading" id="iF4-qr-pml"/>
+                <constraint firstItem="zEv-fI-xHR" firstAttribute="top" secondItem="xa3-ja-kEc" secondAttribute="bottom" constant="15" id="vGn-Tk-iiW"/>
+                <constraint firstItem="UnQ-25-l2P" firstAttribute="top" secondItem="3d1-el-eiX" secondAttribute="bottom" constant="10" id="wdN-UO-4lg"/>
+                <constraint firstItem="WBP-2U-kC5" firstAttribute="top" secondItem="zEv-fI-xHR" secondAttribute="bottom" constant="5" id="xwy-Bv-Ulr"/>
+                <constraint firstAttribute="trailing" secondItem="2uy-XU-qnL" secondAttribute="trailing" constant="20" id="zUd-7k-HZE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="118.5" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="6" width="1080" height="1920"/>
+    </resources>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>用户名</string>
+				<key>dextTitle</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>已绑定手机号码</string>
+				<key>dextTitle</key>
+				<string> </string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>绑定微信</string>
+				<key>dextTitle</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>账户安全</string>
+				<key>dextTitle</key>
+				<string>可修改密码</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>地址管理</string>
+				<key>dextTitle</key>
+				<string>可添加地址</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>setArray</key>
+		<array>
+			<dict>
+				<key>titleLabel</key>
+				<string>问题反馈</string>
+				<key>dextTitle</key>
+				<string> </string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>关于我们</string>
+				<key>dextTitle</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>titleLabel</key>
+				<string>安全退出</string>
+				<key>dextTitle</key>
+				<string> </string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

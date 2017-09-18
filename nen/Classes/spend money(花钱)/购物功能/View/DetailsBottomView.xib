@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qFS-gd-NeU" customClass="DetailsBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29G-Zu-MIA" customClass="detailsBtn">
+                    <rect key="frame" x="5" y="0.0" width="50" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="hTQ-VG-h3l"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="客服" image="kefu">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="CustomerServicebtn:" destination="qFS-gd-NeU" eventType="touchUpInside" id="w2j-7f-zxF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDb-Wc-Oaj" customClass="detailsBtn">
+                    <rect key="frame" x="60" y="0.0" width="50" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="店铺" image="dianpu">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="shopBtn:" destination="qFS-gd-NeU" eventType="touchUpInside" id="PKO-pB-N6J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97v-jA-e9Q" customClass="detailsBtn">
+                    <rect key="frame" x="115" y="0.0" width="50" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="收藏" image="SHOUCHANG1">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" image="SHOUCANG"/>
+                    <state key="highlighted" image="SHOUCANG"/>
+                    <connections>
+                        <action selector="collectionBtn:" destination="qFS-gd-NeU" eventType="touchUpInside" id="tsU-Or-eEU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLh-4c-CEE">
+                    <rect key="frame" x="285" y="3" width="90" height="67"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="立即购买">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="qFS-gd-NeU" eventType="touchUpInside" id="ysZ-I7-dc6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga4-BO-364">
+                    <rect key="frame" x="195" y="3" width="90" height="67"/>
+                    <color key="backgroundColor" red="0.98175591230000003" green="0.46638572220000002" blue="0.154158026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="加入购物车">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shoppingCarBtn:" destination="qFS-gd-NeU" eventType="touchUpInside" id="PGR-7c-uee"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="aDb-Wc-Oaj" firstAttribute="width" secondItem="29G-Zu-MIA" secondAttribute="width" id="2jA-cW-hvR"/>
+                <constraint firstItem="97v-jA-e9Q" firstAttribute="height" secondItem="aDb-Wc-Oaj" secondAttribute="height" id="4y3-kS-b0F"/>
+                <constraint firstItem="97v-jA-e9Q" firstAttribute="width" secondItem="aDb-Wc-Oaj" secondAttribute="width" id="6df-TI-xmD"/>
+                <constraint firstItem="97v-jA-e9Q" firstAttribute="leading" secondItem="aDb-Wc-Oaj" secondAttribute="trailing" constant="5" id="9J2-bX-bbG"/>
+                <constraint firstAttribute="bottom" secondItem="29G-Zu-MIA" secondAttribute="bottom" id="9re-XX-bqY"/>
+                <constraint firstAttribute="bottom" secondItem="ga4-BO-364" secondAttribute="bottom" id="BGB-zb-zvy"/>
+                <constraint firstItem="29G-Zu-MIA" firstAttribute="leading" secondItem="qFS-gd-NeU" secondAttribute="leading" constant="5" id="Bba-CQ-b8U"/>
+                <constraint firstItem="ga4-BO-364" firstAttribute="top" secondItem="qFS-gd-NeU" secondAttribute="top" constant="3" id="INY-sj-cUd"/>
+                <constraint firstItem="gLh-4c-CEE" firstAttribute="top" secondItem="qFS-gd-NeU" secondAttribute="top" constant="3" id="J0b-qZ-K1P"/>
+                <constraint firstItem="gLh-4c-CEE" firstAttribute="height" secondItem="ga4-BO-364" secondAttribute="height" id="P3L-SX-UvV"/>
+                <constraint firstItem="aDb-Wc-Oaj" firstAttribute="leading" secondItem="29G-Zu-MIA" secondAttribute="trailing" constant="5" id="PfP-0I-xJ0"/>
+                <constraint firstItem="aDb-Wc-Oaj" firstAttribute="centerY" secondItem="29G-Zu-MIA" secondAttribute="centerY" id="Q5O-lG-Acn"/>
+                <constraint firstItem="97v-jA-e9Q" firstAttribute="centerY" secondItem="aDb-Wc-Oaj" secondAttribute="centerY" id="S7I-hY-Bpp"/>
+                <constraint firstItem="29G-Zu-MIA" firstAttribute="top" secondItem="qFS-gd-NeU" secondAttribute="top" id="Sis-Oy-ROg"/>
+                <constraint firstItem="aDb-Wc-Oaj" firstAttribute="height" secondItem="29G-Zu-MIA" secondAttribute="height" id="XPS-ch-PmA"/>
+                <constraint firstAttribute="trailing" secondItem="gLh-4c-CEE" secondAttribute="trailing" id="egl-PG-ePa"/>
+                <constraint firstItem="gLh-4c-CEE" firstAttribute="top" secondItem="qFS-gd-NeU" secondAttribute="top" constant="3" id="im8-a2-B9n"/>
+                <constraint firstItem="gLh-4c-CEE" firstAttribute="leading" secondItem="ga4-BO-364" secondAttribute="trailing" id="jcP-xw-hHT"/>
+                <constraint firstItem="gLh-4c-CEE" firstAttribute="width" secondItem="ga4-BO-364" secondAttribute="width" id="psE-9G-djB"/>
+                <constraint firstItem="ga4-BO-364" firstAttribute="leading" secondItem="97v-jA-e9Q" secondAttribute="trailing" constant="30" id="ukH-68-dxh"/>
+                <constraint firstAttribute="bottom" secondItem="gLh-4c-CEE" secondAttribute="bottom" id="wnU-te-jEW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionBtn" destination="97v-jA-e9Q" id="RBJ-f9-3ap"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="255"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SHOUCANG" width="64" height="64"/>
+        <image name="SHOUCHANG1" width="64" height="64"/>
+        <image name="dianpu" width="98" height="98"/>
+        <image name="kefu" width="98" height="98"/>
+    </resources>
+</document>
